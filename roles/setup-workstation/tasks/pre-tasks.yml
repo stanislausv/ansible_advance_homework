@@ -17,8 +17,8 @@
 - name: Downgrade python
   yum:
    name:
-    - python
-    - python-libs
+    - python-2.7.5-48.el7.x86_64
+    - python-libs-2.7.5-48.el7.x86_64
    state: present
    allow_downgrade: yes 
 - name: Create clouds.yaml file
